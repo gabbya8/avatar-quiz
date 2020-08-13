@@ -1,0 +1,83 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 2em; 
+  text-align: center;
+}
+
+button{
+  justify-content: auto;
+  height: 2em;
+  border-radius: 10px;
+  position: relative;
+  right: -80px;
+}
+
+#q1a1{
+  position: relative;
+  right: -100px;
+}
+
+
+#q1a3{
+  position: relative;
+  right: -90px;
+}
+
+#q2a3{
+  position: relative;
+  right: -60px;
+}
+
+#q3a1{
+  position: relative;
+  right: -40px;
+}
+
+
+#restart{
+  position: relative;
+  top: 380px;
+  right: 250px;;
+}
+
+
+/*
+#result-img{
+  position: relative;
+  left: 450px;
+}
+*/
+
+.result-items{
+  display: flex;
+  justify-content: center;
+
+}
+.question {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2em;
+  
+}
+  
+.answer-choice img {
+  width: auto;
+  height: 8em;
+  margin: 1em;
+  border-radius: 20px;
+}
+
